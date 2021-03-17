@@ -8,7 +8,7 @@ console.log(typeof(b));
 
 const numA= Number(a);
 
-const sum= numA * b;
+const sum= numA + b;
 const subtr = numA - b;
 const multi = numA * b;
 const divide = numA / b;
@@ -35,4 +35,4 @@ for (let i = 0; i < myArray.length; i++) {
     }
 }
 console.log(`Liczby większe od 20 to : ${greaterThan}`);
-console.log(`Liczby mniejsze od 20 to :' ${lessThan}`);
+console.log(`Liczby mniejsze od 20 to : ${lessThan}`);
